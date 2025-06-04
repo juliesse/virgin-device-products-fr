@@ -40,7 +40,7 @@ app.get('/list', async (req, res) => {
 
       let link = $(el).find("a[href*='phone-details.html']").attr("href");
       if (link && link.startsWith("phone-details.html")) {
-        link = `https://www.virginplus.ca/en/phones/${link}`;
+        link = `https://www.virginplus.ca/fr/phones/${link}`;
       }
 
       const rawImg =
