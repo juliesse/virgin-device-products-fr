@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 // Virgin page to scrape
 const targetUrl = "https://www.virginplus.ca/fr/phones/phones-summary.html";
-const browserlessUrl = "https://chrome.browserless.io/content";
+const browserlessUrl = "https://production-sfo.browserless.io/content";
 const token = "2SIb60dwXdzNQlG048bfbbda2d58baa30d618d5bbde0b3e59"; // 🔑 Use your Browserless API token
 
 // Root route
